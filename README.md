@@ -48,3 +48,16 @@ A Power Automate Flow automatically downloads all incoming invoice PDFs and save
 
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/Power_Automate.png"></img>
 
+
+## 2️. Extracting Invoice Data (Python & PDF Parsing)
+
+The Python script scans all PDF invoices in the folder and extracts key details using regex patterns:
+
+- Invoice Number
+
+- Purchase Order (PO) Number
+
+- Invoice Date
+
+- Subtotal Amount
+
