@@ -27,3 +27,24 @@ We receive a large number of invoices from suppliers, which need to be verified 
 ## The Solution
 
 Leveraging my programming, and accounting skills, I analyzed the entire process and developed an automation system that significantly reduces manual effort.
+
+
+## How It Works
+
+✅ Step 1: Automating Invoice Collection – A Power Automate Flow downloads all incoming invoice PDFs from emails into a designated folder.
+
+✅ Step 2: Extracting Key Information – A Python script scans each invoice, extracting critical details like Invoice Number, PO Number, Invoice Date, and Total Amount using OCR and Regex.
+
+✅ Step 3: Matching with Inventory – The script cross-references invoices with our inventory records, ensuring that the billed stock aligns with received stock.
+
+✅ Step 4: Formatting for Xero – The extracted data is structured into a CSV file compatible with Xero, making it easy to import and process invoices.
+
+✅ Step 5: Organizing Files – The script renames invoice PDFs using actual invoice numbers, improving file management.
+
+
+## 1. Downloading Invoices from Email (Power Automate Flow)
+
+A Power Automate Flow automatically downloads all incoming invoice PDFs and saves them in a designated folder
+
+<img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/Power_Automate.png"></img>
+
