@@ -61,3 +61,65 @@ The Python script scans all PDF invoices in the folder and extracts key details 
 
 - Subtotal Amount
 
+## Key Technologies Used:
+
+pdfplumber → Extracts text from PDFs
+
+re (Regex) → Identifies invoice details
+
+pandas → Stores extracted data in a structured format
+
+
+## 3️. Matching Invoices with Inventory Data
+
+The extracted invoice details are cross-referenced with a CSV file containing inventory records. This ensures that: 
+
+✅ The invoice corresponds to a valid purchase order 
+
+✅ The correct warehouse location is identified
+
+
+## 4️. Formatting Data for Xero Accounting System
+
+To simplify invoice entry into Xero, the script generates a structured CSV file in Xero’s required format. The output includes:
+
+- Supplier Name
+
+- Invoice Number
+
+- Invoice Date
+
+- Due Date
+
+- Description
+
+- Quantity
+
+- Unit Price
+
+- Tax Type
+
+- Warehouse Location
+
+## Key Process:
+
+- The script maps warehouse codes (AKL, WLG, CHC) to full location names (Auckland, Wellington, Christchurch).
+
+- The final CSV file is saved as {supplier}_to_xero.csv, ready for import into Xero.
+
+## 5️. Renaming Invoices with Actual Invoice Numbers
+
+To keep files organized, the script renames each invoice PDF based on the extracted invoice number.
+
+Example: 📄 randomfile.pdf → 🏷️ 123456 - PO-78910.pdf
+
+
+## Key Benefits of This Automation
+
+- Eliminates manual data entry – Reducing human effort and freeing up valuable time.
+
+- Enhances accuracy – Minimizing errors in stock reconciliation.
+
+- Improves efficiency – Speeding up invoice processing and purchase order verification.
+
+- Better file organization – Making invoices easy to track and retrieve.
