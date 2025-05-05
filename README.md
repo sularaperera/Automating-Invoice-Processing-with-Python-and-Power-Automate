@@ -1,1 +1,1 @@
-<img src="https://github.com/sularaperera/End-to-End-Azure-Data-Engineering-Real-Time-Project/blob/main/Images/Banner_new1.jpeg" width=700></img>
+<img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/Banner%20Full.png" width=700></img>
