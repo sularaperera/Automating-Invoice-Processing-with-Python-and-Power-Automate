@@ -13,3 +13,17 @@ We receive a large number of invoices from suppliers, which need to be verified 
 🔹 This process involves opening each invoice, searching for the corresponding purchase order, and validating the details.
 
 🔹 It's time-consuming, repetitive, and prone to human errors, leading to inefficiencies and potential mismatches.
+
+## To solve this, I designed an automated invoice processing system. This system:
+
+✅ Extracts invoice details from PDFs using OCR
+
+✅ Matches invoices with purchase orders from inventory
+
+✅ Formats the data for accounting systems like Xero
+
+✅ Renames invoices using actual invoice numbers
+
+## The Solution
+
+Leveraging my programming, and accounting skills, I analyzed the entire process and developed an automation system that significantly reduces manual effort.
