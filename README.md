@@ -130,6 +130,9 @@ Example: 📄 randomfile.pdf → 🏷️ 123456 - PO-78910.pdf
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/sample_invoice.png"></img>
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/python_code_v1_.png"></img>
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/python_code_v2_refactored_version.png"></img>
+<img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/csv_file_upload_to_xero.png"></img>
+
+
 
 
 
