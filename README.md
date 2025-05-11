@@ -123,3 +123,8 @@ Example: 📄 randomfile.pdf → 🏷️ 123456 - PO-78910.pdf
 - Improves efficiency – Speeding up invoice processing and purchase order verification.
 
 - Better file organization – Making invoices easy to track and retrieve.
+
+
+
+
+<img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/python_code_v1_.png"></img>
