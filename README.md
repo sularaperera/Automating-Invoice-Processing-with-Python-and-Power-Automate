@@ -146,6 +146,13 @@ For each invoice PDF, the script automatically extracts the following fields:
 ### Refactored Version
 Here’s a cleaned-up and modular version of the script
 
+#### Key Improvements:
+- Modular structure: Each part of the workflow is encapsulated in a function.
+- Robustness: Added error handling and logging.
+- Scalability: Easier to add new features (like new fields or formats).
+- Readability: Organized flow from config to execution.
+- Clean CSV and file renaming logic.
+
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/python_code_v2_refactored_version.png"></img>
 
 ## Final Output
