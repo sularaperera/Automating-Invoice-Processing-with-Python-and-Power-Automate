@@ -125,11 +125,29 @@ Example: 📄 randomfile.pdf → 🏷️ 123456 - PO-78910.pdf
 - Better file organization – Making invoices easy to track and retrieve.
 
 
+## Invoice Processing Automation for Supplier PDFs
 
+This project automates the extraction and transformation of key data from supplier invoice PDFs to streamline accounting workflows. The goal is to generate a CSV file ready for direct upload into Xero accounting software.
+
+🔄 Process Overview
+For each invoice PDF, the script automatically extracts the following fields:
+
+Tax Invoice Number
+
+Invoice Date
+
+Order Number – A 5-digit number in the invoice, automatically prefixed with "PO-" to match the format used in our inventory system (e.g., PO-12345).
+
+Total Excluding GST
 
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/sample_invoice_new.png"></img>
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/python_code_v1_.png"></img>
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/python_code_v2_refactored_version.png"></img>
+
+## Final Output
+
+After processing all invoice PDFs, the script compiles the extracted and formatted data into a standardized CSV file that aligns with Xero's import requirements. This eliminates manual data entry, reduces errors, and ensures seamless integration with existing inventory and accounting systems.
+
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/csv_file_upload_to_xero.png"></img>
 
 
