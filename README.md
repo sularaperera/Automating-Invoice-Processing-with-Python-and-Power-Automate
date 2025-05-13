@@ -129,16 +129,16 @@ Example: 📄 randomfile.pdf → 🏷️ 123456 - PO-78910.pdf
 
 This project automates the extraction and transformation of key data from supplier invoice PDFs to streamline accounting workflows. The goal is to generate a CSV file ready for direct upload into Xero accounting software.
 
-🔄 Process Overview
+### Process Overview
 For each invoice PDF, the script automatically extracts the following fields:
 
-Tax Invoice Number
+- Tax Invoice Number
 
-Invoice Date
+- Invoice Date
 
-Order Number – A 5-digit number in the invoice, automatically prefixed with "PO-" to match the format used in our inventory system (e.g., PO-12345).
+- Order Number – A 5-digit number in the invoice, automatically prefixed with "PO-" to match the format used in our inventory system (e.g., PO-12345).
 
-Total Excluding GST
+- Total Excluding GST
 
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/sample_invoice_new.png"></img>
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/python_code_v1_.png"></img>
