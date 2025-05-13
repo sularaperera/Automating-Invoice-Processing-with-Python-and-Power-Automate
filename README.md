@@ -142,6 +142,10 @@ For each invoice PDF, the script automatically extracts the following fields:
 
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/sample_invoice_new.png"></img>
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/python_code_v1_.png"></img>
+
+### Refactored Version
+Here’s a cleaned-up and modular version of the script
+
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/python_code_v2_refactored_version.png"></img>
 
 ## Final Output
