@@ -161,6 +161,22 @@ After processing all invoice PDFs, the script compiles the extracted and formatt
 
 <img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/csv_file_upload_to_xero.png"></img>
 
+<hr></hr>
+
+# Project Conclusion
+### Overview
+This project automates the extraction, validation, and formatting of invoice data from PDF files and cross-references them with inventory records. By using Python, PDF parsing (pdfplumber), regular expressions, and pandas, it streamlines a previously manual and error-prone process into a fully automated workflow.
+
+### Business Impact
+Time Savings : Previously, staff spent 2 to 3 minutes per invoice reading, checking POs, and entering data into accounting software. Now, hundreds of invoices can be processed in seconds with a single script execution.
+
+Reduced Errors : Ensures only valid purchase orders are processed, reducing the risk of incorrect stock reordering or accounting mismatches.
+
+Regex validation: Eliminates inconsistencies from human error (typos, missing fields, date mismatches).
+
+Improved Data Consistency : Uses a uniform format for all invoices going into the accounting system.
+
+Clear PDF naming improves file organization.
 
 
 
