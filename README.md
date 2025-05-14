@@ -168,15 +168,21 @@ After processing all invoice PDFs, the script compiles the extracted and formatt
 This project automates the extraction, validation, and formatting of invoice data from PDF files and cross-references them with inventory records. By using Python, PDF parsing (pdfplumber), regular expressions, and pandas, it streamlines a previously manual and error-prone process into a fully automated workflow.
 
 ### Business Impact
-Time Savings : Previously, staff spent 2 to 3 minutes per invoice reading, checking POs, and entering data into accounting software. Now, hundreds of invoices can be processed in seconds with a single script execution.
+- _Time Savings_ : Previously, staff spent 2 to 3 minutes per invoice reading, checking POs, and entering data into accounting software. Now, hundreds of invoices can be processed in seconds with a single script execution.
 
-Reduced Errors : Ensures only valid purchase orders are processed, reducing the risk of incorrect stock reordering or accounting mismatches.
+- Reduced Errors : Ensures only valid purchase orders are processed, reducing the risk of incorrect stock reordering or accounting mismatches.
 
-Regex validation: Eliminates inconsistencies from human error (typos, missing fields, date mismatches).
+- Regex validation: Eliminates inconsistencies from human error (typos, missing fields, date mismatches).
 
-Improved Data Consistency : Uses a uniform format for all invoices going into the accounting system.
+- Improved Data Consistency : Uses a uniform format for all invoices going into the accounting system.
 
-Clear PDF naming improves file organization.
+- Clear PDF naming improves file organization.
+
+- Ensures accurate invoice reconciliation against stock records.
+
+- Supports faster month-end closing by reducing the backlog of unprocessed invoices.
+
+- Minimizes costly stock mismatches or duplicate orders caused by human oversight.
 
 
 
