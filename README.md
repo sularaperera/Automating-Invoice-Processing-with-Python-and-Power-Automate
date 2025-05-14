@@ -41,6 +41,9 @@ Leveraging my programming, and accounting skills, I analyzed the entire process 
 
 ✅ Step 5: Organizing Files – The script renames invoice PDFs using actual invoice numbers, improving file management.
 
+<img src="https://github.com/sularaperera/Automating-Invoice-Processing-with-Python-and-Power-Automate/blob/main/Images/visual selection.png"></img>
+
+
 
 ## 1. Downloading Invoices from Email (Power Automate Flow)
 
