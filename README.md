@@ -170,11 +170,11 @@ This project automates the extraction, validation, and formatting of invoice dat
 ### Business Impact
 - **Time Savings** : Previously, staff spent 2 to 3 minutes per invoice reading, checking POs, and entering data into accounting software. Now, hundreds of invoices can be processed in seconds with a single script execution.
 
-- Reduced Errors : Ensures only valid purchase orders are processed, reducing the risk of incorrect stock reordering or accounting mismatches.
+- **Reduced Errors** : Ensures only valid purchase orders are processed, reducing the risk of incorrect stock reordering or accounting mismatches.
 
-- Regex validation: Eliminates inconsistencies from human error (typos, missing fields, date mismatches).
+- **Regex validation** : Eliminates inconsistencies from human error (typos, missing fields, date mismatches).
 
-- Improved Data Consistency : Uses a uniform format for all invoices going into the accounting system.
+- **Improved Data Consistency** : Uses a uniform format for all invoices going into the accounting system.
 
 - Clear PDF naming improves file organization.
 
